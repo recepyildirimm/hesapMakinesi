@@ -23,6 +23,10 @@ switch(islem)
 		scanf("%d",&sayi1);
 		scanf("%d",&sayi2);
 		toplama(sayi1,sayi2);
+		if(sayi1==0||sayi2==0){
+			printf("0'a bolme hatasi");
+			break;
+		}
 		printf("Sonuc=%d",bolme(sayi1,sayi2));
 		break;
 }
